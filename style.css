@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5rem;
+}
+
+textarea {
+    resize: none;
+}
+
+#nameProc {
+    width: 70px;
+    height: 40px;
+
+    text-align: center;
+    font-size: 2rem;
+
+    border: 2px solid red;
+
+}
+
+#bloco-tempo {
+    margin-left: 2rem;
+    margin-top: -2rem;
+}
+
+#botoes {
+    position: relative;
+    top: 10rem;
+    right: 12rem;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+header p:hover {
+    color: aqua;
+}
+
+#autor {
+    text-align: center;
+}
